@@ -1,11 +1,8 @@
 #!/usr/bin/env node
 
-
 // echo '#!/usr/bin/env node' >> cli.js
-
-
 // ./cli.js
-// ./cli.js input with input
+// ./cli.js < input
 
 const [,, ...args] = process.argv; // when we pass input
 
