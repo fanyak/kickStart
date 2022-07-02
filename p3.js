@@ -59,7 +59,8 @@ function runTestCase(data) {
             res3.push([s1,s2,s3, ...el])
         }
     }
-    
+    // console.log(res3)
+
     res2 = [];
     let vowels = ['a', 'e', 'i', 'o', 'u'];
     let l = res3.filter(([s1,s2,s3,s4,s5]) => { 
